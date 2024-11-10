@@ -1,0 +1,191 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Performance Optimization Service",
+      "price": 100,
+      "created_at": "2024-09-14T12:30:45Z"
+    },
+    {
+      "id": 2,
+      "product_name": "Custom Website Design",
+      "price": 1200,
+      "created_at": "2024-09-13T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "product_name": "SEO Optimization Service",
+      "price": 300,
+      "created_at": "2024-09-12T14:15:30Z"
+    },
+    {
+      "id": 4,
+      "product_name": "Responsive Website Development",
+      "price": 800,
+      "created_at": "2024-09-11T10:45:00Z"
+    },
+    {
+      "id": 5,
+      "product_name": "E-commerce Setup Service",
+      "price": 1500,
+      "created_at": "2024-09-10T16:20:15Z"
+    },
+    {
+      "id": 6,
+      "product_name": "Website Maintenance Plan",
+      "price": 200,
+      "created_at": "2024-09-09T08:50:25Z"
+    },
+    {
+      "id": 7,
+      "product_name": "CMS Integration Service",
+      "price": 500,
+      "created_at": "2024-09-08T11:30:00Z"
+    },
+    {
+      "id": 8,
+      "product_name": "Web Hosting and Deployment",
+      "price": 250,
+      "created_at": "2024-09-07T18:00:00Z"
+    },
+    {
+      "id": 9,
+      "product_name": "Custom Web Application Development",
+      "price": 2000,
+      "created_at": "2024-09-06T09:45:00Z"
+    },
+    {
+      "product_name": "Maintenance",
+      "price": "300",
+      "created_at": "2024-09-18T17:25:54.913Z",
+      "id": 10
+    }
+  ],
+  "vouchers": [
+    {
+      "voucher_id": "INV-20241002-2205",
+      "customer_name": "mg mg",
+      "customer_email": "Zaw@gmail.com",
+      "sale_date": "2024-10-02",
+      "all_correct": true,
+      "records": [
+        {
+          "id": 1727912440742,
+          "product": {
+            "id": 9,
+            "product_name": "Custom Web Application Development",
+            "price": 2000,
+            "created_at": "2024-09-06T09:45:00Z"
+          },
+          "quantity": "2",
+          "cost": 4000,
+          "created_at": "2024-10-02T23:40:40.742Z"
+        },
+        {
+          "id": 1727912446252,
+          "product": {
+            "product_name": "Maintenance",
+            "price": "300",
+            "created_at": "2024-09-18T17:25:54.913Z",
+            "id": 10
+          },
+          "quantity": "3",
+          "cost": 900,
+          "created_at": "2024-10-02T23:40:46.252Z"
+        }
+      ],
+      "total": 4900,
+      "tax": 343.00000000000006,
+      "netTotal": 5243,
+      "id": 1
+    },
+    {
+      "voucher_id": "INV-20241004-3687",
+      "customer_name": "ma ma",
+      "customer_email": "Zaw@gmail.com",
+      "sale_date": "2024-10-04",
+      "redirect_to_detail": true,
+      "all_correct": true,
+      "records": [
+        {
+          "id": 1728005264861,
+          "product": {
+            "id": 1,
+            "product_name": "Performance Optimization Service",
+            "price": 100,
+            "created_at": "2024-09-14T12:30:45Z"
+          },
+          "quantity": "4",
+          "cost": 400,
+          "created_at": "2024-10-04T01:27:44.861Z"
+        }
+      ],
+      "total": 400,
+      "tax": 28.000000000000004,
+      "netTotal": 428,
+      "id": 2
+    },
+    {
+      "voucher_id": "INV-20241005-1153",
+      "customer_name": "Ko Ko",
+      "customer_email": "Ko@gami.com",
+      "sale_date": "2024-10-05",
+      "redirect_to_detail": true,
+      "all_correct": true,
+      "records": [
+        {
+          "id": 1728122512674,
+          "product": {
+            "id": 1,
+            "product_name": "Performance Optimization Service",
+            "price": 100,
+            "created_at": "2024-09-14T12:30:45Z"
+          },
+          "quantity": "4",
+          "cost": 400,
+          "created_at": "2024-10-05T10:01:52.674Z"
+        },
+        {
+          "id": 1728122518778,
+          "product": {
+            "id": 4,
+            "product_name": "Responsive Website Development",
+            "price": 800,
+            "created_at": "2024-09-11T10:45:00Z"
+          },
+          "quantity": "2",
+          "cost": 1600,
+          "created_at": "2024-10-05T10:01:58.778Z"
+        },
+        {
+          "id": 1728122523545,
+          "product": {
+            "id": 5,
+            "product_name": "E-commerce Setup Service",
+            "price": 1500,
+            "created_at": "2024-09-10T16:20:15Z"
+          },
+          "quantity": "7",
+          "cost": 10500,
+          "created_at": "2024-10-05T10:02:03.546Z"
+        },
+        {
+          "id": 1728122529611,
+          "product": {
+            "product_name": "Maintenance",
+            "price": "300",
+            "created_at": "2024-09-18T17:25:54.913Z",
+            "id": 10
+          },
+          "quantity": "4",
+          "cost": 1200,
+          "created_at": "2024-10-05T10:02:09.611Z"
+        }
+      ],
+      "total": 13700,
+      "tax": 959.0000000000001,
+      "netTotal": 14659,
+      "id": 3
+    }
+  ]
+}
